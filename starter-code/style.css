@@ -1,0 +1,265 @@
+
+* {
+    font-family: "Open Sans";
+    font-size: 17px;
+}
+
+
+
+/* ################## NAVBAR ################ */
+nav, nav ul, nav a, nav a:visited {
+    color: white;
+}
+
+nav {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    padding: 0 5px;
+}
+
+nav a, nav a:visited {
+    text-decoration: none;
+}
+
+/* ################### HEADER ################ */
+.logo {
+    width: 80px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 3px 0 0;
+    padding: 0;
+}
+
+header {
+    background-color: #235B7A;
+    background-image: url(./images/city-scape.svg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 25px;
+    padding-left:25px;
+}
+button {
+    font-size: 0.8em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+p, ul {
+    color: rgb(240,240,240);
+}
+
+.header-nav {
+    height: 30px;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header-nav form {
+    display: flex;
+    margin: 0 5px;
+    padding: 0;
+    width: 100%;
+}
+
+.header-nav input {
+    outline: none;
+    border-style: none;
+    border: 1px solid rgb(200,200,200,0.3);
+    color: darkgrey;
+    width: 100%;
+    height: 38px;
+    background-color:#245A79 ;
+    padding: 0 5px;
+}
+
+.header-nav input:focus {
+    color: white;
+}
+
+.header-nav form button {
+    margin: 0 0 0 2px;
+    border: 1px solid rgb(200,200,200,0.3);
+    border-radius: 0;
+    color: white;
+    height: 40px;
+    width: 37px;
+    background-color: #245A79
+}
+
+.header-nav a, .header-nav a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    width: 150px;
+}
+
+.content {
+    /* width: 600px; */
+    padding: 40px 20% 100px 0;
+    text-align: left;
+}
+
+header h1 {
+    width: 300px;
+}
+header p {
+    width: 350px;
+    padding: 20px 0;
+}
+
+header button {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 140px;
+    background-color: #E97E11;
+}
+/*  ################## SECTIONS ############## */
+/* ------------------FIRST------------------------- */
+.first {
+    background-color: #273547;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first button {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 140px;
+    background-color: #CB3837;
+}
+
+.first .content {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 370px;
+}
+
+.first .content div {
+    margin: 30px;
+}
+
+.first ul li {
+    padding: 0 0 15px 5px;
+    width: 300px;
+}
+.first img {
+    width: 400px;
+    height: 300px;
+}
+
+.first a, .first a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.first h2 {
+    width: 300px;
+}
+
+/* ---------------------------SECOND--------------------------- */
+.second {
+    background-color: #2481B7;
+    background-image: url(./images/forklift.svg);
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second h1 {
+    margin: 0;
+}
+
+.second button {
+    background-color: #253544;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+}
+
+.second .content {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    width: 400px;
+}
+
+.second p {
+    width: 400px;
+}
+/* --------------------------THIRD----------------------------- */
+.third {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.third p {
+    color: black;
+}
+
+.third .blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 200px;
+    margin: 50px;
+}
+
+.block img {
+    width: 100px;
+    height: 100px;
+}
+
+a {
+   color:orangered;
+   text-decoration: none;
+}
